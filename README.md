@@ -80,6 +80,7 @@ Traditional Programming          vs.        Deep Learning
 
 
 <img src="C:\Users\gaura\OneDrive\Desktop\Training\Deep Learning\images\howItWork.jpg" width="500">
+<img src="C:\Users\91809\Pictures\Screenshots">
 
 
 | Concept | Description |
