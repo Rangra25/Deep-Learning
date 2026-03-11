@@ -78,9 +78,8 @@ Traditional Programming          vs.        Deep Learning
 
 ### How It Works
 
+<img width="634" height="423" alt="Screenshot 2026-03-11 104837" src="https://github.com/user-attachments/assets/e1f66167-16d1-4f87-9ae6-2ab5945d2791" />
 
-<img src="C:\Users\gaura\OneDrive\Desktop\Training\Deep Learning\images\howItWork.jpg" width="500">
-<img src="C:\Users\91809\Pictures\Screenshots">
 
 
 | Concept | Description |
@@ -135,7 +134,8 @@ Max Pooling (2×2, stride=2):
 ├──┼──┼──┼──┤
 │ 2│ 6│ 1│ 3│
 └──┴──┴──┴──┘
-```
+
+
 
 - Retains the **most prominent feature** in each region
 - Reduces spatial dimensions → fewer parameters → less overfitting
