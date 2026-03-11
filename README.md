@@ -272,7 +272,7 @@ datagen.fit(X_train)
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 INPUT IMAGE (28×28×1)
@@ -367,7 +367,7 @@ INPUT IMAGE (28×28×1)
 
 ---
 
-## 🎛️ Training Configuration
+##  Training Configuration
 
 ```python
 model.compile(
@@ -404,11 +404,11 @@ callbacks = [
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 <div align="center">
 
-### 🏆 Final Test Set Performance
+###  Final Test Set Performance
 
 | Metric | Score |
 |:---:|:---:|
@@ -451,7 +451,7 @@ weighted avg     0.9921    0.9921    0.9921     10000
 
 ---
 
-## 🔀 Confusion Matrix
+##  Confusion Matrix
 
 ```
 Predicted →    0     1     2     3     4     5     6     7     8     9
@@ -473,7 +473,7 @@ Actual  0  │ 977 │  0  │  0  │  0  │  0  │  1  │  1  │  0  │  
 
 ---
 
-## 🖼️ Sample MNIST Digits
+##  Sample MNIST Digits
 
 ```
   ╔═══════════════════════════════════════════════════════════════════╗
@@ -554,48 +554,48 @@ mnist-digit-recognition/
 │       └── y_test.npy
 │
 ├── 📂 notebooks/
-│   ├── 📓 01_data_exploration.ipynb     # EDA, visualizations
-│   ├── 📓 02_preprocessing.ipynb        # Data pipeline walkthrough
-│   ├── 📓 03_model_training.ipynb       # Build & train CNN
-│   └── 📓 04_evaluation.ipynb           # Metrics, confusion matrix
+│   ├──  01_data_exploration.ipynb     # EDA, visualizations
+│   ├──  02_preprocessing.ipynb        # Data pipeline walkthrough
+│   ├──  03_model_training.ipynb       # Build & train CNN
+│   └──  04_evaluation.ipynb           # Metrics, confusion matrix
 │
 ├── 📂 src/
-│   ├── 🐍 __init__.py
-│   ├── 🐍 config.py               # Hyperparameters & paths
-│   ├── 🐍 dataset.py              # Data loading utilities
-│   ├── 🐍 preprocessing.py        # Normalization, augmentation
-│   ├── 🐍 model.py                # CNN architecture definition
-│   ├── 🐍 train.py                # Training loop
-│   └── 🐍 evaluate.py             # Metrics & visualization
+│   ├──  __init__.py
+│   ├──  config.py               # Hyperparameters & paths
+│   ├──  dataset.py              # Data loading utilities
+│   ├──  preprocessing.py        # Normalization, augmentation
+│   ├──  model.py                # CNN architecture definition
+│   ├──  train.py                # Training loop
+│   └──  evaluate.py             # Metrics & visualization
 │
 ├── 📂 models/
-│   ├── 🧠 best_model.h5           # Best checkpoint (val_loss)
-│   └── 🧠 final_model.h5          # End-of-training weights
+│   ├──  best_model.h5           # Best checkpoint (val_loss)
+│   └──  final_model.h5          # End-of-training weights
 │
 ├── 📂 outputs/
 │   ├── 📂 figures/
-│   │   ├── 🖼️ accuracy_curve.png
-│   │   ├── 🖼️ loss_curve.png
-│   │   ├── 🖼️ confusion_matrix.png
-│   │   └── 🖼️ sample_predictions.png
+│   │   ├──  accuracy_curve.png
+│   │   ├──  loss_curve.png
+│   │   ├──  confusion_matrix.png
+│   │   └──  sample_predictions.png
 │   └── 📂 logs/
 │       └── 📂 tensorboard/        # TensorBoard event files
 │
 ├── 📂 tests/
-│   ├── 🐍 test_preprocessing.py
-│   ├── 🐍 test_model.py
-│   └── 🐍 test_evaluate.py
+│   ├──  test_preprocessing.py
+│   ├──  test_model.py
+│   └──  test_evaluate.py
 │
-├── 📄 requirements.txt
-├── 📄 environment.yml             # Conda environment spec
-├── 📄 Makefile                    # Automation shortcuts
-├── 📄 .gitignore
-└── 📄 README.md
+├──  requirements.txt
+├──  environment.yml             # Conda environment spec
+├──  Makefile                    # Automation shortcuts
+├──  .gitignore
+└──  README.md
 ```
 
 ---
 
-## 🚀 Installation & Quick Start
+##  Installation & Quick Start
 
 ### Prerequisites
 
@@ -674,7 +674,7 @@ kaggle>=1.5.0
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 | Priority | Improvement | Description |
 |:---:|---|---|
@@ -707,24 +707,24 @@ kaggle>=1.5.0
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 | Section | Description |
 |---|---|
-| [📖 Project Overview](#-project-overview) | What this project does and why it matters |
-| [🧠 Deep Learning Explained](#-deep-learning-explained) | Fundamentals of deep learning |
-| [🔭 CNN Architecture](#-convolutional-neural-networks) | How CNNs process images |
-| [📊 Dataset](#-dataset-information) | MNIST dataset details from Kaggle |
-| [⚙️ Preprocessing Pipeline](#%EF%B8%8F-preprocessing-pipeline) | Data preparation steps |
-| [🏗️ Model Architecture](#%EF%B8%8F-model-architecture) | Layer-by-layer architecture diagram |
-| [🎛️ Training Configuration](#%EF%B8%8F-training-configuration) | Hyperparameters and settings |
-| [📈 Evaluation Metrics](#-evaluation-metrics) | Performance on test set |
-| [🔀 Confusion Matrix](#-confusion-matrix) | Class-wise prediction breakdown |
-| [🖼️ Sample Digits](#%EF%B8%8F-sample-mnist-digits) | Visualizations from the dataset |
-| [📉 Training Graphs](#-training-graphs) | Accuracy and loss curves |
-| [📁 Folder Structure](#-project-folder-structure) | Repository layout |
-| [🚀 Installation](#-installation--quick-start) | Setup and run instructions |
-| [🔮 Future Improvements](#-future-improvements) | Roadmap and enhancements |
+| [ Project Overview](#-project-overview) | What this project does and why it matters |
+| [ Deep Learning Explained](#-deep-learning-explained) | Fundamentals of deep learning |
+| [ CNN Architecture](#-convolutional-neural-networks) | How CNNs process images |
+| [ Dataset](#-dataset-information) | MNIST dataset details from Kaggle |
+| [ Preprocessing Pipeline](#%EF%B8%8F-preprocessing-pipeline) | Data preparation steps |
+| [ Model Architecture](#%EF%B8%8F-model-architecture) | Layer-by-layer architecture diagram |
+| [ Training Configuration](#%EF%B8%8F-training-configuration) | Hyperparameters and settings |
+| [ Evaluation Metrics](#-evaluation-metrics) | Performance on test set |
+| [ Confusion Matrix](#-confusion-matrix) | Class-wise prediction breakdown |
+| [ Sample Digits](#%EF%B8%8F-sample-mnist-digits) | Visualizations from the dataset |
+| [ Training Graphs](#-training-graphs) | Accuracy and loss curves |
+| [ Folder Structure](#-project-folder-structure) | Repository layout |
+| [ Installation](#-installation--quick-start) | Setup and run instructions |
+| [ Future Improvements](#-future-improvements) | Roadmap and enhancements |
 
 ---
 
@@ -745,7 +745,7 @@ Whether you're a student exploring computer vision or an engineer building OCR p
 
 ---
 
-## 🧠 Deep Learning Explained
+##  Deep Learning Explained
 
 ```
 Traditional Programming          vs.        Deep Learning
@@ -783,7 +783,7 @@ CNNs are the gold standard architecture for image recognition tasks. They exploi
 
 ### Core Operations
 
-#### 1. 🔍 Convolution (Feature Detection)
+#### 1.  Convolution (Feature Detection)
 
 ```
 Input Patch          Filter (3×3)        Feature Map
@@ -834,17 +834,17 @@ Introduces **non-linearity**, enabling the network to learn complex, non-linear 
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 <div align="center">
 
-### 🗃️ MNIST — Mixed National Institute of Standards and Technology
+###  MNIST — Mixed National Institute of Standards and Technology
 
 </div>
 
 ```
-📦 Kaggle Dataset: hojjatk/mnist-dataset
-🔗 https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+ Kaggle Dataset: hojjatk/mnist-dataset
+ https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 ```
 
 | Property | Details |
@@ -950,7 +950,7 @@ datagen.fit(X_train)
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 INPUT IMAGE (28×28×1)
@@ -1086,7 +1086,7 @@ callbacks = [
 
 <div align="center">
 
-### 🏆 Final Test Set Performance
+###  Final Test Set Performance
 
 | Metric | Score |
 |:---:|:---:|
@@ -1129,7 +1129,7 @@ weighted avg     0.9921    0.9921    0.9921     10000
 
 ---
 
-## 🔀 Confusion Matrix
+##  Confusion Matrix
 
 ```
 Predicted →    0     1     2     3     4     5     6     7     8     9
@@ -1151,7 +1151,7 @@ Actual  0  │ 977 │  0  │  0  │  0  │  0  │  1  │  1  │  0  │  
 
 ---
 
-## 🖼️ Sample MNIST Digits
+##  Sample MNIST Digits
 
 ```
   ╔═══════════════════════════════════════════════════════════════════╗
